@@ -5,13 +5,13 @@ from Script import script
 SESSION = environ.get('SESSION', 'filetolin')  # Session name
 API_ID = int(environ.get('API_ID', '23340285'))
 API_HASH = environ.get('API_HASH', 'ab18f905cb5f4a75d41bb48d20acfa50')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7987512854:AAGsXDfqyAcRT3wRGVFC9_u02ADd7A45z5k')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '7465574522').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1002288135729").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Itsme123c')
-BOT_USERNAME = environ.get("BOT_USERNAME", '')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'Tg_Url_Upl0aderobot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/RexBots_Official')
@@ -20,16 +20,16 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/RexBots_Official')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/RexBots_Official')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002288135729'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002288135729'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002288135729'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002288135729'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002288135729"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
 FSUB = environ.get("FSUB", False)  # Force Subscribe
-ENABLE_LIMIT = environ.get("ENABLE_LIMIT", False)
+ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
 BATCH_VERIFY = False
 IS_SHORTLINK = False
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
@@ -42,7 +42,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
-DB_URL = environ.get('DATABASE_URI', "")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://RahulPrince720:Q7qg69E1oH30LT6d@cluster0.fb0ldjk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 
 # 📸 __Media & Images__
